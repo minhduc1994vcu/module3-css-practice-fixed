@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: #1bff29;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+    height: 40px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #1613f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.main{
+    margin-top: 60px;
+    height: 500px;
+    width: 70%;
+    float: right;
+    background-color: #ecff59;
+    overflow-y: scroll;
+}
+h1,h2,p  {
+    margin: 10px 20px;
+}
+.footer{
+    height: 100px;
+    background-color: cadetblue;
+    clear: both;
+}
